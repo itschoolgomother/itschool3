@@ -1,0 +1,32 @@
+body{
+	background-color:lightgreen;
+}
+p{
+	color:darkblue;
+	font-size:55px;
+	text-align:center;
+}
+.snowman{
+	width:200px;
+	height:500px;
+	background-color:lightblue;
+	position: relative;
+}
+.legs{
+	width:200px;
+	height:200px;
+	background-color:white;
+	border-radius:50%;
+	position:absolute;
+	top:300px;
+
+}
+.body{
+	width:150px;
+	height:150px;
+	background-color:white;
+	border-radius:50%;
+	position:absolute;
+	top:200px;
+
+}
