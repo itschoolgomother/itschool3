@@ -1,32 +1,114 @@
 body{
-	background-color:lightgreen;
+    background-color: yellow;
 }
-p{
-	color:darkblue;
-	font-size:55px;
-	text-align:center;
-}
-.snowman{
-	width:200px;
-	height:500px;
-	background-color:lightblue;
-	position: relative;
-}
-.legs{
-	width:200px;
-	height:200px;
-	background-color:white;
-	border-radius:50%;
-	position:absolute;
-	top:300px;
-
+.santa{
+    width: 350px;
+    height: 600px;
+    
 }
 .body{
-	width:150px;
-	height:150px;
-	background-color:white;
-	border-radius:50%;
+    width: 350px;
+    height: 350px;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+}
+.head{
+    width: 170px;
+    height: 250px;
+ 
+    position: absolute;
+    left: 90px ;
+    top: 70px;
+    z-index: 1;
+}
+.beard{
+    width: 170px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 170px;
+    border-radius: 0%  0% 35%  35%;
+}
+.face{
+	width:170px;
+	height:80px;
+	background-color:#fc8386;
 	position:absolute;
-	top:200px;
+	top:100px;
+
+}
+.hat{
+	width:170px;
+	height:80px;
+	background-color:red;
+	border-radius:0 0 50% 50% / 0 0 100% 100%;
+	transform:rotate(180deg);
+}
+.line{
+	width:190px;
+	height:20px;
+	background-color:white;
+	position:absolute;
+	left:-10px;
+	top:-20px; 
+}
+.eyel{
+	width:10px;
+	height:10px;
+	background-color:black;
+	border-radius:50px;
+	position:absolute;
+	left:40px;
+	top:30px;  
+}
+.eyer{
+	width:10px;
+	height:10px;
+	background-color:black;
+	border-radius:50px;
+	position: absolute;
+	left:120px;
+	top:30px;
+
+}
+.nose{
+	width:20px;
+	height:40px;
+	background-color:red;
+	border-radius:0 0 35% 35%;
+	position:absolute;
+	left:75px;
+	top:50px;
+	z-index: 4; 
+}
+.mouse{
+	width:50px;
+	height:25px;
+	background-color:black;
+	border-radius:0 0 50% 50%/ 0 0 100% 100%;
+	position:absolute;
+	left:55px;
+	top:50px;
+	z-index: 4px; 
+}
+.earl{
+	width:20px;
+	height:40px;
+	background-color:#fc8386;
+	position:absolute;
+	border-radius:0 0 35% 35%/0 0 35% 35%;
+	left:-10px;
+	top:30px;
+
+}.earr{
+	width:20px;
+	height:40px;
+	background-color:#fc8386;
+	position:absolute;
+	border-radius:0 0 35% 35%/0 0 35% 35%;
+	left:160px;
+	top:30px;
 
 }
