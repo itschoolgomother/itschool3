@@ -4,7 +4,10 @@ body{
 .santa{
     width: 350px;
     height: 600px;
-    
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform:translate(-50%,-50%); 
 }
 .body{
     width: 350px;
@@ -85,13 +88,14 @@ body{
 }
 .mouse{
 	width:50px;
-	height:25px;
+	height:15px;
 	background-color:black;
 	border-radius:0 0 50% 50%/ 0 0 100% 100%;
 	position:absolute;
 	left:55px;
 	top:50px;
-	z-index: 4px; 
+	z-index: 4px;
+	animation: 3s smeh infinite; 
 }
 .earl{
 	width:20px;
@@ -100,7 +104,7 @@ body{
 	position:absolute;
 	border-radius:0 0 35% 35%/0 0 35% 35%;
 	left:-10px;
-	top:30px;
+	top:25px;
 
 }.earr{
 	width:20px;
@@ -109,6 +113,50 @@ body{
 	position:absolute;
 	border-radius:0 0 35% 35%/0 0 35% 35%;
 	left:160px;
-	top:30px;
+	top:25px;
 
+}
+.circle{
+	width:80px;
+	height:80px;
+	background-color:crimson;
+	position:absolute;
+	border-radius: 50%;
+	left: 70px;
+	top: -130px;
+	z-index: -5;
+}
+.circlew{
+	width:40px;
+	height:40px;
+	background-color:white;
+	position:absolute;
+	border-radius: 50%;
+	left: 130px;
+	top: -130px;
+	z-index: -6;
+}
+@keyframes smeh{
+	0%{border-radius:0 0 50% 50%/  0 0 100% 100%;}
+	30%{border-radius: 0 0 50% 50% / 0 0 100% 100%;height: 15px;}
+	50%{border-radius: 50%;height : 35px;}
+	70%{border-radius: 0 0 50% 50% / 0 0 100% 100%;height: 15px;}
+	100%{border-radius: 0 0 50% 50% / 0 0 100% 100%;}
+}
+h1{
+	color: red;
+	font-size:40px;
+	text-align: center;
+	animation: 5s fon infinite;
+}
+@keyframes fon{
+	0%{color: red;}
+	30%{color: darkred;}
+	40%{color: green;}
+	50%{color: lightgreen;}
+	60%{color: blue;}
+	70%{color:lightblue;}
+	80%{color:purple;}
+	90%{color:darkblue;}
+	100%{color:red;}
 }

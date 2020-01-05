@@ -4,17 +4,36 @@
  p{
      color: lightcoral;
      font-size: 35px;
-     text-align: center;
+
+text-align: center;
+animation: 2s fon infinite;
+
+}
+@keyframes fon{
+		0%{color:white;}
+	25%{color: teal;}
+	50%{color: tomato;}
+	75%{color: peru;}
+	100%{color: rosybrown;}
+
+
  }
+
  .snowman{
      width: 200px;
      height: 500px;
- position: relative;
+
+position: absolute;
+
+left: 50%;
+top:50%;
+transform:translate( -50%,-50%);
 }
+
 .legs{
      width: 200px;
      height: 200px;
-     background-color: white; 
+     background-color: brown; 
      position: absolute;
 	 top:300px;
 	 border-radius:50%;
@@ -22,7 +41,7 @@
 .body{
 	width: 150px;
 	height: 150px;
-	background-color: white;
+	background-color: brown;
 	border-radius:50%;
 	position: absolute;
 	top: 150px;
@@ -31,7 +50,7 @@
 .haed{
 	width: 100px;
 	height:100px;
-	background-color:green;	
+	background-color:brown;	
 border-radius: 50% ;
 position:absolute;
 left: 50px;
@@ -66,8 +85,55 @@ position:absolute;
 	top: 60px;
 left: 40px;
 }  
+.arml{
+	width: 100px;
+	height: 10px;
+	background-color: brown;
+	position: absolute;
+	left:-90px;
+	top: 55px;
+	transform: rotate(-15deg);
+z-index: -1;
+}
+.armr{
+	width: 100px;
+	height: 10px;
+	background-color: brown;
+	position: absolute;
+	left: 140px;
+	top: 55px;
+	transform: rotate(15deg);
+	z-index: -1;
+
+}
+.legl{
+	width: 60px;
+	height: 30px;
+	background-color: brown;
+	border-radius: 50%;
+	position: absolute;
+	top: 170px;
+	z-index: -2;
+}
+.legr{
+	width: 60px;
+	height: 30px;
+	background-color: brown;
+	border-radius: 50%;
+	position: absolute;
+	top: 170px;
+	left: 135px;
+	z-index: -2;
+}
 
 
+
+
+
+
+
+
+	
 
 
 
