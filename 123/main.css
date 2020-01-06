@@ -1,13 +1,15 @@
 body{
-    background-color: yellow;
+    background-image:url("snow.gif");
+    background-size: 100%;
 }
 .santa{
     width: 350px;
     height: 600px;
     position:absolute;
-    left: 50%;
-    top: 50%;
-    transform:translate(-50%,-50%); 
+    left: 40%;
+    top: 30%;
+    transform-origin: center bottom;
+    animation: 2s santam alternate infinite ease-in-out; 
 }
 .body{
     width: 350px;
@@ -79,7 +81,7 @@ body{
 .nose{
 	width:20px;
 	height:40px;
-	background-color:red;
+	background-color: red;
 	border-radius:0 0 35% 35%;
 	position:absolute;
 	left:75px;
@@ -157,6 +159,40 @@ h1{
 	60%{color: blue;}
 	70%{color:lightblue;}
 	80%{color:purple;}
-	90%{color:darkblue;}
+	90%{color:lightblue;}
 	100%{color:red;}
+}
+@keyframes santam{
+	from{transform: rotate(-5deg); }
+	to{transform: rotate(5deg);}
+}
+.pygovica1{
+	width: 20px;
+    height: 15px;
+    background-color:black;
+    position:absolute;
+    border-radius: 50%;
+    left: 170px;
+    top: 130px;
+    z-index: 4;  
+}
+.pygovica2{
+	width: 20px;
+	height: 15px;
+	background-color:black;
+	position:absolute;
+	border-radius: 50%;
+	left: 170px;
+	top: 190px;
+	z-index: 4; 
+}
+.pygovica3{
+	width: 20px;
+	height: 15px;
+	background-color:black;
+	position:absolute;
+	border-radius: 50%;
+	left: 170px;
+	top: 260px;
+	z-index: 4; 
 }
