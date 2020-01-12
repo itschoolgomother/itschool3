@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<script type="text/javascript">
+	var canvas = document.getElementById('canvas')
+	var ctx = canvas.getContext('2d')
+	canvas.width = 1000;	
+	canvas.height = 600;
+	var lol;
+	var x = prompt('укажите x')
+	lol = confirm('vi lubite krasniy?')
+	if(lol==true){ctx.fillStyle = 'red'}
+	ctx.arc(x,300,40,0,7)
+	ctx.fill()
+
+</script>
+</body>
+</html>

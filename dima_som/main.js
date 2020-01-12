@@ -10,6 +10,7 @@ ctx.fillRect(cx-100,cy-100,200,200);
 ctx.beginPath();
 ctx.moveTo(innerWidth/2,innerHeight/2);
 ctx.lineTo(500,455);
+ctx.lineTo(600,)
 
 
 
