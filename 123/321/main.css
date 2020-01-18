@@ -1,0 +1,36 @@
+
+.santa{
+	background-image:url("ded.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width:250px;
+	height:250px;
+	left:40%;
+	top:30%;
+	position: absolute;
+}
+.rectangle{
+	width: 400px;
+	height: 400px;
+	background-color:red;
+	border-radius:10%;
+	position: absolute;
+	top:150px; 
+}
+h1{
+	color: lightblue;
+	font-size:40px;
+	text-align: center;
+	animation: 5s fon infinite;
+}
+@keyframes fon{
+	0%{color:gray;}
+	30%{color:darkred;transform: rotate(-5deg);}
+	40%{color:green;}
+	50%{color:lightgreen;}
+	60%{color:blue;transform: rotate( 5deg)}
+	70%{color:lightblue;}
+	80%{color:purple;}
+	90%{color:gold;transform: rotate( -5deg)}
+	100%{color:gray;} 
+}	
