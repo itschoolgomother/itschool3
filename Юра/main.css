@@ -1,0 +1,13 @@
+body{
+	background-color: green;
+}
+h6	{
+	color: blue;
+	text-align: center;
+	font-size: 200px;
+}
+h6:hover{
+color:yellow;
+text-decoration-line:overline;
+transform: rotate(90deg);
+}
