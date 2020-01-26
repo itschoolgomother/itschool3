@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<textarea id="tt"></textarea>
+<button onclick="to()">Balance</button>
+<button onclick="b()">red</button>
+<button onclick="g()">black</button>
+<script type="text/javascript">
+	var k = document.getElementById('tt').value;
+	var m = 1000;
+	function to(){
+	alert("у вас: "+m+"$")
+	}
+	function b(){
+	var ch = 0;
+	m=m-k;
+	var r=Math.random()
+	r=Math.round(r)
+if (ch==r){alert("вы выиграли:(");
+m=m+k*r;alert("Баланс"+m);}
+else {alert("вы проиграли:0");
+alert("Баланс"+m);}
+}
+	function g(){
+	var ch = 1;
+	m=m-k;
+	var r=Math.random()
+	r=Math.round(r)
+if (ch==r){alert("вы выиграли:(");
+m=m+k*r;alert("Баланс"+m);}
+else {alert("вы проиграли:0");
+alert("Баланс"+m);}
+}	
+</script>
+</body>
+</html>

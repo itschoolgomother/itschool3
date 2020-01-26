@@ -9,5 +9,29 @@
 
 // alert("hi world");
 // console.log("123123123123132");
-alert(String.fromCharCode(97))
-alert("Dima".charCodeAr(0))
+// alert(String.fromCharCode(97))
+// alert("Dima".charCodeAt(0))
+var text = "привет"
+var letters = text.split("")
+var shifr = []
+var option = prompt("1 or 2","1");
+
+
+for(var i = 0; i<letters.length;i++){
+	 var code = letters[i].charCodeAt(0)
+	if(option == "2"){
+		code += 10
+	}else{
+		alert("error")
+	}
+
+ 	shifr.push(String.fromCharCode(code))
+}
+
+console.log(shifr)
+
+
+
+
+
+// String.fromCharCode(97)    
