@@ -1,0 +1,14 @@
+#circle{
+	width:124px; 
+	height:124px;
+	border-radius: 50%;
+}
+.pink{
+	background-color: pink;
+}
+.yellow{
+	background-color: yellow;
+}
+.green{
+	background-color: green;
+}

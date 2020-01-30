@@ -1,0 +1,48 @@
+body{
+	background-color: blue;
+}
+.snowman{
+	width: 200px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+.legs{
+	width: 200px;
+	height:200px ;
+	background-color:white;
+	border-radius: 50%;
+	position:absolute;
+	top:300px;
+}
+.body{
+	width:150px;
+	height: 150px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left:25px;
+	top:180px;
+}
+.head{
+	width: 100px;
+	height:100px;
+	background-color: white;
+	border-radius: 50%;
+	position: absolute;
+	left: 50px;
+	top:100px
+}
+.eyel{
+	width: 10px;
+	height: 10px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left:25px;
+	top:25px;
+	
+
+}
