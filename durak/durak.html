@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<button onclick="tuz()">подозвать</button>
+<!-- <button onclick="dama()">подозвать</button> -->
+<script type="text/javascript">
+	var canvas= document.getElementById('canvas');
+	var ctx = canvas.getContext('2d');
+canvas.width = 1200;
+canvas.height = 600;
+var x = 50;
+var y = 50;
+var p = 0;
+for (var i = 0;i<25;i++) {
+	tuz()
+	function tuz(){
+	ctx.beginPath();
+	ctx.rect(x,y,50,50);
+	// if (x<500) {ctx.fillStyle = "blue"} 
+
+	x+=75;
+	if (x>350) {
+		x=50;
+		y+=75;
+		}
+		ctx.fill()
+	}
+	}
+	
+
+	function dama(){
+	x=50;y=50;p++;
+	for (var i = 0;i<5; i++) {
+	ctx.beginPath()
+	ctx.rect(x,y,50,50);
+	ctx.fillStyle = "blue"
+	ctx.fill()
+	x+=75;
+	}
+	}
+</script>
+</body>
+</html>

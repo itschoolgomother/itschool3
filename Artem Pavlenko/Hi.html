@@ -1,55 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html>	
 <head>
 	<title></title>
 </head>
 <body>
-	<textarea id="ta">Кол-во денег</textarea>
-	<button onclick="random()"black()
-
-	>Red</button>
-	<button onclick=" "></button>
-
-	
-	<br>
-	<textarea id="ta">Номер</textarea>
-	<button onclick="random()  red()">Black</button>
-	<button onclick="moneyb()">Баланс</button>
-
-
+	<canvas id="canvas"></canvas>
+	<button onclick="hello()">0</button>
 	<script type="text/javascript">
-		var money = 800;
-		function artem(){
-	var text = document.getelementbyid('ta').value;
-	text=text*2;
-	alert(text)
-}
-	function moneyb(){
-		alert('У вас: '+money+'$')
+	var canvas=document.getElementById('canvas');
+	var ctx = canvas.getContext('2d');
+	canvas.width = 500;
+	canvas.height = 500;
+	var x =50;
+	var y =50;
+	function hello(){
+		
+
+		
+	
+     
 	}
 
-	function random(){
-		var zc = Math.random()
-		zc= Math.random(zc)}
+	for (var i = 0; i<50;i++){
+		ctx.beginPath()
+		ctx.rect(x,y, 50,50)
+		ctx.fillStyle="red"
+		if (x>500) {
+			x=50; y+=75;
+		}
 
-</script>
+		ctx.fill()
+		x=x+75;
+		
+	}
+          
+	
 	
 
-<script type="text/javascript">
-	var money = 1000;
-	var k = document.getelementbyId('stavka').value;
-	function krutit(){
-	m=m-k;
-	var r = Math.random()
-	r = Math.round(r)
-	if(r==ch){k=k*2;m=m+k;alert('Вы выиграли, ваш баланс: '+money)}
-	else{alert('Вы проиграли, ваш баланс: '+money)}
-	}
-	function red(){var ch = 0;}
-	function black(){var ch = 1;}
-	function budget(){alert('Ваш баланс: '+money)}
 
+	</script>
 
-</script>
 </body>
 </html>
