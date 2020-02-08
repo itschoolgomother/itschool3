@@ -13,4 +13,3 @@ var blue = Math. random()*255
 
 document.body.style.backgroundColor = "rgb("+red+","+green+","+blue+")"
 
-
