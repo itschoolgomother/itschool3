@@ -1,13 +1,19 @@
 body{
-	background-color: green;
+	color:rgb(145, 187, 177);
+	background-color: #505d5d;
+	
 }
-h6	{
-	color: blue;
-	text-align: center;
-	font-size: 200px;
+h1{
+	font-size: 50%;
+	background-color: red;
+	position: absolute;`
+	top: 50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	color: coral;
+
 }
-h6:hover{
-color:yellow;
-text-decoration-line:overline;
-transform: rotate(90deg);
+h1:hover{
+	color:#ccc;
+		transform:rotate(180deg);
 }
