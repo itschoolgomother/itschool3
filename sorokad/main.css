@@ -1,0 +1,70 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    width: 100%;
+    min-height: 100px;
+    background-color: blue;
+}
+.con{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.head{
+    display: flex;
+}
+.head-left{
+    width: 50%;
+    min-height:100px ;
+    display: flex;
+
+}
+.head-right{
+    width: 50%;
+    min-height:100px ;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.head-left > h2{
+    color: red;
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+}  
+menu{
+    align-self: center;
+}
+menu > a{
+    color: seashell;
+    text-decoration: none;
+    margin-left: 15px;
+}
+.content{
+	width: 100%;
+	min-height: 670px;
+	margin-top: 50px; 
+    display: flex;
+}
+.contentl{
+	width: 53%;
+	min-height: 500px;
+	background-color: blue;
+}
+.contentr{
+	width: 47%;
+	min-height: 500px;
+	background-color: yellow;
+}
+.img{
+	width: 53%;
+	min-height: 670px;
+	background-image:url("sobaken.jpg");
+	background-repeat: no-repeat; 
+    background-size: 100%
+}
+.text{
+	width: 47%;
+	min-height: 500px;
+	margin-right: 10px;
+}

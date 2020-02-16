@@ -1,19 +1,30 @@
-body{
-	color:rgb(145, 187, 177);
-	background-color: #505d5d;
-	
+.panda{
+	width: 175px;
+	height:400px;
+background-color: white;
+position: absolute;
+left:50% ;
+top:50%;
+transform: translate(-50%,-50%);
 }
-h1{
-	font-size: 50%;
-	background-color: red;
-	position: absolute;`
-	top: 50%;
-	left:50%;
-	transform: translate(-50%,-50%);
-	color: coral;
-
+.head{
+width: 170px;
+height: 160px;
+background-color: white;
+border-radius: 70% 80% 70% 70%;
+border: 1px black solid;
+box-shadow: inset 17px 0px 3px 0px rgb(70, 70, 70);
+position: absolute;
+z-index: 2;
 }
-h1:hover{
-	color:#ccc;
-		transform:rotate(180deg);
+.body{
+width: 150px;
+height:190PX;
+background-color: white;
+border: 1px black solid;
+border-radius: 90% 90% 70% 70%;
+box-shadow: inset 12px -8px 3px 0px rgb(70, 70, 70);
+position: absolute;
+left: 20px;
+top:150px; 
 }
