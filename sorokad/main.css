@@ -43,8 +43,9 @@ menu > a{
 .content{
 	width: 100%;
 	min-height: 670px;
-	margin-top: 50px; 
     display: flex;
+    padding: 3px;
+    color: blue;
 }
 .contentl{
 	width: 53%;
@@ -66,5 +67,15 @@ menu > a{
 .text{
 	width: 47%;
 	min-height: 500px;
-	margin-right: 10px;
+	margin-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: orange;
+}
+.text > h2{
+color: gray;
+padding: 22px;	
+}
+.hlp{
+margin-top: 100px;
+color: yellow;	
 }
