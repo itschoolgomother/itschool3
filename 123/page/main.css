@@ -1,0 +1,33 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.con{
+	max-width: 1200px; 
+	margin:0 auto;
+}
+header{
+	width: 100%;
+	min-height: 150px;
+	background-color: lightgreen;
+}
+header > div{
+	display: flex;
+}
+.headerL,.headerR{
+	width: 50%;
+	min-height: 150px;
+	display: flex;
+	align-items: center;
+
+}
+menu > li{
+	list-style: none;
+	display:inline-block;
+	margin-left: 25px;
+}
+.headerL > h2{
+	color:white;
+	font-size :30px;
+	font-family: 'Lacquer';
+}

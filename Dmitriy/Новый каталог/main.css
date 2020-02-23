@@ -1,0 +1,62 @@
+*{
+     padding: 0px;
+     margin: 0px;
+}
+.con{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header{
+   width: 100%;
+  min-height:150px;
+background-color: gold;
+
+}
+header > div{
+display: flex;
+}
+.headerL,.headerR{
+width: 100%;
+min-height: 150px;
+display: flex;
+align-items: center;
+
+}
+menu > li{
+list-style: none;
+display: inline;
+margin-left: 50px;
+
+}
+.content{
+width: 100%;
+min-height: 500px;
+background-color: gold;
+margin-top: 50px;
+
+}
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
