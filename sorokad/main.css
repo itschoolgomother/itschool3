@@ -42,7 +42,7 @@ menu > a{
 }
 .content{
 	width: 100%;
-	min-height: 670px;
+	min-height: 800px;
     display: flex;
     padding: 3px;
     color: blue;
@@ -55,21 +55,17 @@ menu > a{
 .contentr{
 	width: 47%;
 	min-height: 500px;
-	background-color: yellow;
+	background-color: gold;
 }
-.img{
-	width: 53%;
-	min-height: 670px;
-	background-image:url("sobaken.jpg");
-	background-repeat: no-repeat; 
-    background-size: 100%
+.contentl > img{
+	width: 100%;
 }
 .text{
 	width: 47%;
 	min-height: 500px;
 	margin-left: 20px;
 	font-family: 'Open Sans Condensed', sans-serif;
-	color: orange;
+	color: darkorange;
 }
 .text > h2{
 color: gray;
@@ -78,4 +74,47 @@ padding: 22px;
 .hlp{
 margin-top: 100px;
 color: yellow;	
+}
+.futer{
+background-color:gold;
+min-height: 150px;
+text-align: center;
+line-height: 100px;
+margin-top: 20px;
+}
+.futer > div > h4{
+color: gold;	
+}
+@media screen and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and  (max-width: 1000px){
+.text{
+		width: 47%;
+	min-height: 500px;
+	margin-left: 20px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: red;
+}
+.content{
+	width: 100%;
+	display: block;
+}
+.contentl{
+	width: 100%;
+	min-height: 250px;
+}
+.contentl > img{
+margin-top: 30px
+
+}
+.contentr{
+	width: 100%;
+	min-height: 250px;
+}
+.head-left > h2{
+    color: red;
+    align-self: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 50;
+}
+.body{
+ 	
 }

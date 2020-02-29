@@ -15,7 +15,44 @@ h4{
 	}
 h5{
 	color:#584a4a;
-}
+}								
 h6{
 	color: #ef5d18 
 }	    
+.nikita09{
+	width: 250px;
+	height: 250px;
+	background-color: #e17a7a;
+	border-radius: 50%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.eyel{
+	width: 20px;
+	height: 20px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	left: 90px;
+	top: 80px;
+}
+.eyer{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+	border-radius: 50%;
+	position: absolute;
+	left: 160px;
+	top: 80px; 
+}
+.smile{
+	width: 50px;
+	height: 20px;
+	background-color: plum;
+	border-radius: 0 0 50% 50% / 0 0 100% 100%;
+    position: absolute;
+    left: 110px;
+    top: 150px;
+}
