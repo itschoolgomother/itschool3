@@ -49,7 +49,7 @@ menu > li > a{
 .mainR{
     width: 60%;
     min-height: 500px;
-    background-color: blue;
+    background-color: white;
     padding: 10px;
 }
 #img{
@@ -75,4 +75,15 @@ menu > li > a{
 
 .list > li{
     color: red;
+}
+
+footer{
+    min-height: 100px;
+
+    background-color: white; 
+}
+footer > div  > p{
+    color: red;
+    text-align: center;
+    line-height: 100px;
 }

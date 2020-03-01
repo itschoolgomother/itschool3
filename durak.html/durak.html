@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<style type="text/css">
+.text {font-size: 120px;position: absolute; top: 300px;visibility: hidden;}
+#sht1{left: 100px}
+#sht2{left: 250px}
+#sht3{left: 400px}
+#sht4{left: 600px}
+#sht5{left: 800px}
+#sht6{left: 1000px}
+
+@keyframes down{
+	from{top:-200px;}
+}
+@keyframes up{
+	from{top: 1000px;}
+}
+@keyframes left{
+	from{left: -100px;}
+}
+@keyframes right{
+	from{left: 1450px;}
+}
+	</style>
+<div class="text" id="sht1">Г</div>
+<div class="text" id="sht2">о</div>
+<div class="text" id="sht3">ш</div>
+<div class="text" id="sht4">и</div>
+<div class="text" id="sht5">к</div>
+<script type="text/javascript">
+document.getElementById('sht1').style.transform = "rotate("+Math.random()*360+"deg)"
+document.getElementById('sht2').style.transform = "rotate("+Math.random()*360+"deg)"
+document.getElementById('sht3').style.transform = "rotate("+Math.random()*360+"deg)"
+document.getElementById('sht4').style.transform = "rotate("+Math.random()*360+"deg)"
+document.getElementById('sht5').style.transform = "rotate("+Math.random()*360+"deg)"
+
+window.addEventListener('keydown',call);
+function call() {
+if (event.code=="KeyU"){
+document.getElementById('sht1').style.animation = "left 3s 1"
+document.getElementById('sht1').style.visibility = "visible"
+	}
+if (event.code=="KeyJ"){
+document.getElementById('sht2').style.animation = "up 4s 1"
+document.getElementById('sht2').style.visibility = "visible"
+	}
+	if (event.code=="KeyI"){
+document.getElementById('sht3').style.animation = "down 3s 1"
+document.getElementById('sht3').style.visibility = "visible"
+	}
+	if (event.code=="KeyB"){
+document.getElementById('sht4').style.animation = "right 4s 1"
+document.getElementById('sht4').style.visibility = "visible"
+	}
+	if (event.code=="KeyR"){
+document.getElementById('sht5').style.animation = "up 4s 1"
+document.getElementById('sht5').style.visibility = "visible"
+	}	
+}
+</script>
+</body>
+</html>

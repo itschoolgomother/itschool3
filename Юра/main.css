@@ -13,7 +13,7 @@ height: 160px;
 background-color: white;
 border-radius: 70% 80% 70% 70%;
 border: 1px black solid;
-box-shadow: inset 17px 0px 3px 0px rgb(70, 70, 70);
+box-shadow: inset 17px 0px 3px 0px rgb(85, 85, 85);
 position: absolute;
 z-index: 2;
 }
@@ -23,7 +23,7 @@ height:190PX;
 background-color: white;
 border: 1px black solid;
 border-radius: 90% 90% 70% 70%;
-box-shadow: inset 12px -8px 3px 0px rgb(70, 70, 70);
+box-shadow: inset 12px -8px 3px 0px rgb(85, 85, 85);
 position: absolute;
 left: 20px;
 top:150px; 
@@ -99,4 +99,102 @@ top:150px;
 	position: absolute;
 	top: 90px;
 	left: 69px;
+}
+.min-nouse{
+	width:13px;
+	height:10px;
+	background-color:white;
+	border-radius: 50%;
+	position: absolute;
+	top:4px;
+	left: 5px; 
+}
+.mouse{
+	width:16px; 
+	height:12px;
+	background-color:black; 
+	border-radius:100% 100% 60% 60%;
+	position: absolute;
+	top:120px;
+	left: 60px;
+}
+.min-mouse{
+	width:8px; 
+	height:6px;
+	background-color:red; 
+	border-radius:100% 100% 60% 60%;
+	position: absolute;
+	top:4px;
+	left: 4px;
+}
+.earl{
+    width:70px; 
+	height:70px;
+	background-color:black; 
+	border-radius:70% 80% 70% 80%;
+	position: absolute;
+	top:-10px;
+	left: -5px;
+	box-shadow: inset 8px 0px 3px 0px rgb(85, 85, 85);
+}
+.earr{
+	width:70px; 
+	height:70px;
+	background-color:black; 
+	border-radius:70% 80% 70% 80%;
+	position: absolute;
+	top:-11px;
+	left: 100px;
+	box-shadow: inset 8px 0px 3px 0px rgb(85, 85, 85);
+}
+.legl{
+width:50px; 
+	height:80px;
+	background-color:black; 
+	border-radius:40% 50% 40% 50%;
+	position: absolute;
+	top:160px;
+	left: 10px;
+	z-index: -1;
+}
+.legr{
+	width:50px; 
+	height:80px;
+	background-color:black; 
+	border-radius:40% 50% 40% 50%;
+	position: absolute;
+	top:160px;
+	left:93px;
+	z-index: -1;
+}
+.armr{
+width:px; 
+	height:px;
+	background-color:black; 
+	border-radius:;
+	position: absolute;
+	top:;
+	left:;
+}
+.armr2{
+width:px; 
+	height:px;
+	background-color:black; 
+	border-radius:;
+	position: absolute;
+	top:;
+	left:;
+}
+.arml{
+width:52px; 
+	height:112px;
+	background-color:black; 
+	border-radius:40% 50% 40% 50%;
+	position: absolute;
+	top:0px;
+	left:-6px;
+	transform: rotate(10deg);
+	z-index: -3;
+	box-shadow:inset 5px -2px 1px 0px;
+	border:3px solid black; 
 }

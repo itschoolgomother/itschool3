@@ -10,6 +10,7 @@ header{
 	width: 100%;
 	min-height: 150px;
 	background-color: lightgreen;
+	margin-bottom: 50px;
 }
 header > div{
 	display: flex;
@@ -30,4 +31,22 @@ menu > li{
 	color:white;
 	font-size :30px;
 	font-family: 'Lacquer';
+}
+main{
+	width: 100%;
+	min-height: 600px;
+	background-color: lightgreen;
+	display:flex;
+}
+.mainL{
+	width: 50%;
+	
+}
+
+.mainL > img{
+	width: 100%;
+}
+.text{
+	width: 100%;
+	padding: 15px;
 }
