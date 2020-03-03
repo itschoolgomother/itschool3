@@ -16,6 +16,9 @@ def main(push,interval,power):
         interval(power,60)
     elif info == "2":
         push()
+    else:
+    	print("Err (1 or 2)")
+    	main(pushGit,setInterval,off)    
 
 def off():  
     os.system("poweroff")
