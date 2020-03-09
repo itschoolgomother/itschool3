@@ -48,7 +48,7 @@ main{
 	width: 50%
 }
 
-.mainl > img{
+.mainL > img{
 	width: 100%;
 }
 
@@ -64,4 +64,12 @@ main{
 	color: white;
 	margin-top: 20px;
 }
-google fonts
+
+footer{
+    width: 100%;
+    min-height: 100px;
+    background-color: turquoise;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

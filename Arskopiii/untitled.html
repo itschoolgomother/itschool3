@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body id="body">
+	<div id="meny">
+		<select id='select' onchange="igk()">
+			<option value="color1">we1</option>
+			<option value="color2">we2</option>
+			<option value="color3">we3</option>
+			<option value="color4">we4</option>
+			<option value="color5">we5</option>
+			<option value="color6">we6</option>
+		</select>
+		<button onclick="()"></button>
+		<button onclick="()"></button>
+		<button onclick="()"></button>
+		<button onclick="()"></button>
+		<button onclick="()"></button>
+		<button onclick="()"></button>
+	</div>
+	<style type="text/css">
+		#meny{
+			position: fixed;
+			width: 80%;
+			height: 10%;
+			background-color: red;
+			opacity: 0.5;
+			left: 10%;
+			bottom: 5%;
+		}
+		select{
+			position: relative;
+			top: 35%;
+			left: 5%;
+		}
+		button{
+			width: 100px;
+			height: 20px;
+			position: relative;
+			left: 150px;
+			top: 30%;
+		}
+		button:hover{
+			width: 200px;
+		}
+	</style>
+<script type="text/javascript">
+function igk(){
+if(document.getElementById('select').value=='color1'){document.getElementById('body').style.background = '#00a8cc'}
+if(document.getElementById('select').value=='color2'){document.getElementById('body').style.background = '#192965'}
+if(document.getElementById('select').value=='color3'){document.getElementById('body').style.background = '#0f4c75'}
+if(document.getElementById('select').value=='color4'){document.getElementById('body').style.background = '#7fa998'}
+if(document.getElementById('select').value=='color5'){document.getElementById('body').style.background = '#eb8242'}
+if(document.getElementById('select').value=='color6'){document.getElementById('body').style.background = '#f6f078'}
+		}	
+</script>
+</body>
+</html>

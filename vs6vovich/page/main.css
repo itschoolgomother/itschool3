@@ -1,0 +1,88 @@
+/*all style*/
+*{
+	padding: 0px;
+	margin: 0px;
+}
+.con{
+	max-width: 1200px;
+	margin: 0 auto;
+}
+header{
+	width: 100%;
+	min-height: 150px;
+	background-color: lime;
+	margin-bottom: 50px;
+}
+header > div{
+	display: flex;
+}
+.headerL,.headerR{
+	width: 100%;
+	min-height: 150px;
+	display: flex;
+	align-items: center;
+}
+menu > li{
+	list-style: none;
+	display: inline;
+	margin-left: 50px;
+	font-size: 25px;
+	color: crimson;
+}
+menu > li > a{
+	font-size: 20px;
+	color: crimson;
+	text-decoration: none;
+}
+menu > li > a:hover{
+color: blue;
+text-decoration: underline;
+}
+/*Main */
+main{
+	width: 100%;
+	min-height: 500px;
+	background-color: lightblue;
+	display: flex;
+}
+.mainR{
+	width: 50%;
+	
+}
+.mainL{
+	width: 50%;
+	
+}
+.mainL > img{
+	width: 100%;
+}
+.mainR > img{
+	width: 100%;
+}
+.text{
+	padding: 25px;
+}
+.text > h2{
+	color: gold;
+	font-size: 40px;
+	text-align: center;
+}
+.text > p{
+	color: purple;
+	margin-top: 20px;
+}
+footer{
+	min-height: 100px;
+	background-color: gray;
+	margin-top: 50px;
+}
+footer > div > p{
+	color: crimson;
+
+}
+.btn{
+	background-color: purple;
+	box-shadow: none;
+	border-color: none;
+	border-width: 0 px;
+}
