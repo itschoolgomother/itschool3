@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<button id="p"></button>
+<style type="text/css">
+	#p{
+		width: 20px;
+		height: 20px;
+		border: 5px solid black;
+		background-color: gold;
+		border-radius: 50px;
+		position: absolute;
+		cursor: pointer;
+	}
+</style>
+<script type="text/javascript">
+	window.addEventListener('mousemove',f)
+	var rx = 0;
+	var x = 350;
+	var y = 350;
+	var rx = 0;
+	var r = 0;
+	function f(){
+		var mx = event.x;
+		var my = event.y;
+		rx = x*x+50+y*y+50;
+		rx = Math.sqrt(rx)
+		ry = mx*mx+50+my*my+50;
+		ry = Math.sqrt(ry)
+		r=ry-rx;
+		if(r<0){r=-r}
+	document.getElementById('p')
+		.style.left=x+"px";
+	document.getElementById('p')
+		.style.top=y+"px";
+		if(r<50){
+		x=Math.random()*1000;
+		y=Math.random()*800;
+		}
+		document.getElementById('p').style.background='rgb('+r+',0,0)';
+	}
+</script>
+</body>
+</html>

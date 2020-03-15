@@ -219,7 +219,7 @@
 </html>
  -->
 
- <!DOCTYPE html>
+<!--  <!DOCTYPE html>
  <html>
  <head>
  	<title></title>
@@ -268,6 +268,126 @@
 
 
  	</script>
+ 
+ </body>
+ </html> -->
+
+
+
+ <!DOCTYPE html>
+ <html>
+ <head>
+ 	<title></title>
+ </head>
+ <body>
+ 	<style type="text/css">
+ 		button{
+ 			width:200px; 
+ 			height:60px;
+ 			margin: 50px;
+
+
+ 		
+
+
+ 		
+ 
+ 	</style>
+ 	  <center><button onclick="show('bu1')" onmouseout="khidden()">1</button>
+ 	  <button onclick="show('bu2')" onmouseout="khidden()">2</button>  
+ 	  <button onclick="show('bu3')" onmouseout="khidden()">3</button>
+ 	  <button onclick="show('bu4')" onmouseout="khidden()">4</button></center> 
+
+
+
+ 	  <div id=bu1> 
+ 	  Hello</div>
+ 	  <div id="bu2">
+ 	  	Hello2
+ 	  </div>   
+ 	  <div id="bu3">
+ 	  	Hello3
+ 	  </div>   
+ 	  <div id="bu4">
+ 	  	Hello4
+ 	  </div>
+
+ 	  <script type="text/javascript">
+ 	  	var	k = -1
+ 	  	function show(id){
+ 	  		
+ 	  		k=-k;
+ 	  		if (k>0) {
+ 	  		document.getElementById(id).style.visibility = 'visible'
+ 	  		}
+ 	  		if (k<0) {
+ 	  		document.getElementById(id).style.visibility = 'hidden'
+			}
+
+  }
+
+
+  	function khidden(){
+  		
+  	}
+ 	  </script> 
+
+ 	  <style type="text/css">
+ 	  	
+ 	  	#bu1{
+ 	  		position: absolute;
+ 	  		top: 118px;
+ 	  		left: 82px;
+ 	  		width: 198px;
+ 	  		height: 200px;
+ 	  		border: 1px solid black;
+ 	  		visibility: hidden;
+
+
+
+
+ 	  	}
+
+ 	  	#bu2{
+ 	  		position: absolute;
+ 	  		top: 118px;
+ 	  		left: 387px;
+ 	  		width: 198px;
+ 	  		height: 200px;
+ 	  		border: 1px solid black;
+ 	  	visibility: hidden;} 
+
+ 	  	#bu3{
+ 	  		position: absolute;
+ 	  		top: 118px;
+ 	  		left: 693px;
+ 	  		width: 198px;
+ 	  		height: 200px;
+ 	  		border: 1px solid black;
+ 	  		visibility: hidden; }
+
+ 	  	#bu4{
+ 	  		position: absolute;
+ 	  		top: 118px;
+ 	  		left: 998px;
+ 	  		width: 198px;
+ 	  		height: 200px;
+ 	  		border: 1px solid black;
+ 	  		visibility: hidden;
+
+
+
+ 	  	}
+
+
+
+
+
+ 	  	}
+ 	  </style>   
+
+
+
  
  </body>
  </html>
